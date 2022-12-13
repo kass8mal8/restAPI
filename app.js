@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
-const productsRoute = require('./Routes/Api/products')
-const usersRoute = require('./Routes/Api/users')
+const usersRoute = require('./api/routes/users')
+const productsRoute = require('./api/routes/products')
 
-app.use('/producs', productsRoute)
-app.use('./users', usersRoute)
+app.use('/users', usersRoute)
+app.use('/products', productsRoute)
 
 module.exports = app

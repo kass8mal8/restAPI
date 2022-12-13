@@ -1,0 +1,14 @@
+[
+    {
+        "name":"PS5",
+        "price":12.99
+    },
+    {
+        "name":"AirForce 1",
+        "price":10.99  
+    },
+    {
+        "name":"Balenciaga",
+        "price":8.99
+    }
+]
